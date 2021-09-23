@@ -1,0 +1,28 @@
+.display {
+  padding-right: 10px;
+  height: 70px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: relative;
+
+  border: 1px solid #ddd;
+  border-radius: 1px;
+  font-size: 2.5rem;
+
+  transition: all 0.2s ease-in-out;
+  pointer-events: none;
+}
+
+.display:hover {
+  border: 1px solid #bbb;
+}
+
+.supDisplayValue {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  z-index: 1;
+
+  font-size: 1.2rem;
+}
